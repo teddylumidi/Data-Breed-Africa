@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Include FontAwesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
 </head>
 <body>
     <!-- Navigation section -->
@@ -132,7 +135,7 @@
           </div>
           <div class="col-md-4">
               <h3>Contact Us</h3>
-              <p>Get in touch with us to discuss your data needs or inquire about our services and training programs.</p>
+              <p>Get in touch with us to discuss your data needs or inquire about our services and training program today.</p>
               <a href="contact.html" class="btn btn-primary">Contact Us</a>
           </div>
       </div>
@@ -142,43 +145,39 @@
 <!-- Horizontal line to separate sections -->
 <hr class="section-divider">
 
-<!-- Reviews section -->
-<section id="reviews" class="orange-bg">
+ <!-- Reviews section -->
+ <section id="reviews" class="orange-bg">
   <div class="container">
       <div class="row">
           <div class="col-md-12">
               <h2 class="section-title"><b>Our Client's Reviews</b></h2>
           </div>
-          <div class="col-md-6">
-              <div class="revi-ew">
-                  <img src="images/reviewer1.jpeg" alt="Reviewer 1" class="review-img circular-img">
-                  <p>"Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services!"</p>
-                  <p class="reviewer"><b>Mukesh Akhan, CEO Mega Plastics</b></p>
+          <div class="col-md-12">
+              <div id="review-slider" class="slick-carousel">
+                  <!-- Review items -->
+                  <div class="review">
+                      <img src="images/reviewer1.jpeg" alt="Reviewer 1" class="review-img circular-img">
+                      <p>"Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services!"</p>
+                      <p class="reviewer"><b>Mukesh Akhan, CEO Mega Plastics</b></p>
+                  </div>
+                  <div class="review">
+                      <img src="images/reviewer2.jpeg" alt="Reviewer 2" class="review-img circular-img">
+                      <p>"Excellent services! They provided valuable insights that transformed our business operations."</p>
+                      <p class="reviewer"> <b>Naomi Akinyi, COO Net Station</b></p>
+                  </div>
+                  <div class="review">
+                      <img src="images/reviewer3.jpeg" alt="Reviewer 3" class="review-img circular-img">
+                      <p>"Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services!"</p>
+                      <p class="reviewer"><b>Allan McDonalds, CEO Kijani Labs</b></p>
+                  </div>
+                  <div class="review">
+                      <img src="images/reviewer4.jpeg" alt="Reviewer 4" class="review-img circular-img">
+                      <p>"Your team of data specialists worked seamlessly with my marketing team, providing clear and concise reports that highlighted key trends and opportunities. Based on your insights, we were able to refine our marketing strategy to target the right demographics with the right messaging at the right time."</p>
+                      <p class="reviewer"><b>Alphayo Mubanda, COO Shivakalabs</b></p>
+                  </div>
+                  <!-- Add more review items as needed -->
               </div>
           </div>
-          <div class="col-md-6">
-              <div class="review">
-                  <img src="images/reviewer2.jpeg" alt="Reviewer 2" class="review-img circular-img">
-                  <p>"Excellent services! They provided valuable insights that transformed our business operations."</p>
-                  <p class="reviewer"> <b>Naomi Akinyi, COO Net Station</b></p>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="review">
-                  <img src="images/reviewer3.jpeg" alt="Reviewer 3" class="review-img circular-img">
-                  <p>"Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services!"</p>
-                  <p class="reviewer"><b>Allan McDonalds, CEO Kijani Labs</b></p>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="review">
-                  <img src="images/reviewer4.jpeg" alt="Reviewer 4" class="review-img circular-img">
-                  <p>"Your team of data specialists worked seamlessly with my marketing team, providing clear and concise reports that highlighted key trends and 
-                    opportunities.  Based on your insights, we were able to refine our marketing strategy to target the right demographics with the right messaging at the right time."</p>
-                  <p class="reviewer"><b>Alphayo Mubanda, COO Shivakalabs</b></p>
-              </div>
-          </div>
-          <!-- Add more reviews as needed -->
       </div>
   </div>
 </section>
@@ -221,7 +220,7 @@
           </div>
           <div class="col-md-3 footer-box">
               <p class="footer-heading">Help</p>
-              <p class="footer-text"><a href="blog.html">Blogs</a></p>
+              <pa class="footer-text"><a href="blog.html">Blogs</a></p>
               <p class="footer-text"><a href="faqs.html">FAQs</a></p>
               <p class="footer-text"><a href="index.html">Reviews</a></p>
           </div>
@@ -229,10 +228,25 @@
   </div>
 </section>
 
-<!-- Include necessary JavaScript files -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
-<script src="smooth-scroll.js"></script>
+ <!-- Include necessary JavaScript files -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Include Slick Carousel JavaScript -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ <script src="script.js"></script>
+ <script src="smooth-scroll.js"></script>
+ <script>
+     $(document).ready(function(){
+         $('#review-slider').slick({
+             dots: true,
+             autoplay: true,
+             autoplaySpeed: 3000,
+             arrows: false,
+             infinite: true,
+             slidesToShow: 1,
+             slidesToScroll: 1
+         });
+     });
+ </script>
 </body>
 </html>
