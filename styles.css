@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #1b4e63, #1b4e63);
+  background-image: linear-gradient(to right, #00004f,#00004f);
   padding: 0 !important;
 }
 
@@ -52,7 +52,7 @@ body {
 
 /* Banner section */
 #banner {
-  background-image: linear-gradient(to right, #1b4e63, #1b4e63);
+  background-image: linear-gradient(to right, #00004f, #00004f);
   color: #D95B43;
   padding-top: 5%;
 }
@@ -93,7 +93,7 @@ body {
 /* Horizontal line to separate sections */
 .section-divider {
   margin: 40px auto; /* Adjusted margin */
-  border-top: 1px solid #1b4e63;
+  border-top: 1px solid #00004f;
   width: 80%;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .orange-bg {
-  background-color: #1b4e63;
+  background-color: #e5e8f0;
   padding: 50px 0; /* Adjust padding as needed */
 }
 
@@ -183,7 +183,7 @@ body {
 
 /* Footer section */
 #footer {
-  background-image: linear-gradient(to right, #1b4e63, #1b4e63);
+  background-image: linear-gradient(to right, #00004f, #00004f);
   color: #D95B43;
   padding-top: 50px;
 }
@@ -226,7 +226,7 @@ body {
 /* Navigation on smaller screens */
 nav {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to right, #1b4e63, #1b4e63);
+  background-image: linear-gradient(to right, #00004f,#00004f);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -271,7 +271,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-image: linear-gradient(to right, #1b4e63, #1b4e63);
+  background-image: linear-gradient(to right, #00004f, #00004f);
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
   display: none;
