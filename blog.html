@@ -75,14 +75,14 @@
         </div>
     </section>
 
-    <!-- Blog posts section -->
- <!-- Image section -->
+<!-- Blog posts section -->
 <section id="blog-image">
     <div class="container text-center">
-        <img src="images/blogs.jpg" alt="Blog Image" class="img-fluid mx-auto d-block mt-4" style="max-width: 600px;">
+        <img src="images/blogs.jpg" alt="Blog Image" class="img-fluid mx-auto d-block mt-4">
         <p class="text-center"><a href="https://your-wordpress-blog.com" target="_blank"><h1>Click here to read Blogs by Data Breed Africa</h1></a></p>
     </div>
 </section>
+
 
     <!-- Social media section -->
     <section id="social-media">
@@ -148,6 +148,44 @@
                 slidesToScroll: 1
             });
         });
+    </script>
+    <script>
+        // Function to fetch blog posts from WordPress API
+        function fetchBlogPosts() {
+            const url = 'https://your-wordpress-site.com/wp-json/wp/v2/posts';
+
+            fetch(url)
+                .then(response => response.json())
+                .then(posts => {
+                    // Iterate through each post and create HTML elements
+                    posts.forEach(post => {
+                        const postLink = document.createElement('a');
+                        postLink.href = post.link;
+                        postLink.textContent = post.title.rendered;
+
+                        const postTitle = document.createElement('h2');
+                        postTitle.appendChild(postLink);
+
+                        const postDate = document.createElement('p');
+                        postDate.textContent = new Date(post.date).toLocaleDateString();
+
+                        const postContent = document.createElement('div');
+                        postContent.innerHTML = post.content.rendered;
+
+                        const postContainer = document.createElement('div');
+                        postContainer.classList.add('blog-post');
+                        postContainer.appendChild(postTitle);
+                        postContainer.appendChild(postDate);
+                        postContainer.appendChild(postContent);
+
+                        document.getElementById('blog-posts-container').appendChild(postContainer);
+                    });
+                })
+                .catch(error => console.error('Error fetching blog posts:', error));
+        }
+
+        // Call the function to fetch blog posts when the page loads
+        window.onload = fetchBlogPosts;
     </script>
 </body>
 </html>
