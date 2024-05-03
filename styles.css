@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #00004f,#00004f);
+  background-image: linear-gradient(to right,#015a96,#015a96);
   padding: 0 !important;
 }
 
@@ -35,14 +35,14 @@ body {
 }
 
 .navbar-nav li a {
-  color: #D95B43 !important;
+  color: #070707 !important;
   font-weight: 600;
   text-align: left;
   text-decoration: none; /* Remove underline */
 }
 
 .fa-bars {
-  color: #D95B43;
+  color: #070707;
   font-size: 30px !important;
 }
 
@@ -52,8 +52,8 @@ body {
 
 /* Banner section */
 #banner {
-  background-image: linear-gradient(to right, #00004f, #00004f);
-  color: #D95B43;
+  background-image: linear-gradient(to right, #015a96, #015a96);
+  color: #070707;
   padding-top: 5%;
 }
 
@@ -69,7 +69,7 @@ body {
 }
 
 #banner a {
-  color: #D95B43;
+  color: #070707;
   text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ body {
 /* Horizontal line to separate sections */
 .section-divider {
   margin: 40px auto; /* Adjusted margin */
-  border-top: 1px solid #00004f;
+  border-top: 1px solid #015a96;
   width: 80%;
 }
 
@@ -124,7 +124,7 @@ body {
 
 .slick-prev:hover,
 .slick-next:hover {
-  color: #D95B43;
+  color: #070707;
 }
 
 .slick-dots {
@@ -157,7 +157,7 @@ body {
 }
 
 .slick-dots li.slick-active button {
-  background-color: #D95B43;
+  background-color: #070707;
 }
 
 /* Social media section */
@@ -183,8 +183,8 @@ body {
 
 /* Footer section */
 #footer {
-  background-image: linear-gradient(to right, #00004f, #00004f);
-  color: #D95B43;
+  background-image: linear-gradient(to right, #015a96, #015a96);
+  color: #070707;
   padding-top: 50px;
 }
 
@@ -199,7 +199,7 @@ body {
 }
 
 .footer-text a {
-  color: #D95B43; /* Set color for menu links */
+  color: #070707; /* Set color for menu links */
   text-decoration: none; /* Remove underline */
 }
 
@@ -226,7 +226,7 @@ body {
 /* Navigation on smaller screens */
 nav {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to right, #00004f,#00004f);
+  background-image: linear-gradient(to right, #015a96,#015a96);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -251,7 +251,7 @@ nav a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #D95B43 !important;
+  color: #070707 !important;
   font-weight: 600;
   text-align: left;
 }
@@ -271,7 +271,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-image: linear-gradient(to right, #00004f, #00004f);
+  background-image: linear-gradient(to right, #015a96, #015a96);
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
   display: none;
