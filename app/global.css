@@ -1,0 +1,119 @@
+
+body {
+    height: 100vh;
+    font-size: 16px;
+}
+
+:root {
+  --primary-color: #00004f;
+  --seconday-color: tomato;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--seconday-color);
+}
+
+/* HEADER SECTION */
+.navbar-brand { font-size: 1.456rem !important; font-weight: 500 !important; }
+.navbar-toggler-icon { background-color: var(--seconday-color) !important; }
+header { background-color: #00004f; }
+header nav a {
+    color: var(--seconday-color) !important;
+    font-size: 1.085rem !important;
+    font-weight: 500 !important;
+}
+header nav a:hover {
+    color: whitesmoke !important;
+    background-color: #00004f !important;
+}
+
+.hero {
+    /* background-color: #00004fee; */
+    background-image: url("/imgs/cool-background.png");
+}
+.hero h1 { color: var(--seconday-color);}
+.hero p { color: white; }
+
+.text-warning {
+  color: var(--seconday-color) !important;
+}
+
+#testimonials {
+  background-color: aliceblue;
+}
+
+#social, .marketing {
+  background-color: rgba(255, 99, 71, 0.075);
+}
+.social-icons img {
+  /* width: 80px; */
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+
+
+footer {
+  background-color: #00004f;
+  color: whitesmoke;
+}
+footer h4 {
+  color: var(--seconday-color);
+}
+footer p { font-size: .875rem;}
+footer a {
+  color: whitesmoke !important;
+  font-size: .8765rem !important;
+}
+footer a:hover {
+  text-decoration: none !important;
+  color: var(--seconday-color) !important;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #D95B43;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #D95B43;
+}
