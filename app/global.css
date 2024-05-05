@@ -12,6 +12,10 @@ body {
 h1,h2,h3,h4,h5,h6 {
   color: var(--seconday-color);
 }
+.btn-primary {
+  background-color: var(--seconday-color) !important;
+  border-color: var(--seconday-color);
+}
 
 /* HEADER SECTION */
 .navbar-brand { font-size: 1.456rem !important; font-weight: 500 !important; }
@@ -54,7 +58,9 @@ header nav a:hover {
   transform: translateY(-10px);
 }
 
-
+.contacts a {
+  color: var(--seconday-color) !important;
+}
 
 footer {
   background-color: #00004f;

@@ -9,7 +9,7 @@ export default function NavBar() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav mx-auto me-0">
                         <li className="nav-item"><Link href="/" className="nav-link mx-2">Home</Link></li>
                         <li className="nav-item"><Link href="/#about" className="nav-link mx-2">About</Link></li>

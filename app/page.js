@@ -133,7 +133,7 @@ export default function Page() {
             </section>
             <section>
             <h2 id="academy" className="fw-medium text-center display-4 mb-2 mt-5">Our Academy</h2>
-                <div className="container-xl row mx-lg-auto">
+                <div className="container-xl row mx-lg-auto pb-3">
                     <div className="col-md-4 shadow-sm p-4">
                         <h3 className="display-5">Data Analysis Beginner</h3>
                         <p className="lead">Embark on your data journey with our comprehensive course
@@ -178,10 +178,10 @@ export default function Page() {
                         />
                     </div>
                 </div>
-                <div className="container-xl row mx-lg-auto">
+                <div className="container-xl row mx-lg-auto pb-3">
                     <div className="col-md-4 shadow-sm p-4">
-                        <h3 className="display-5">HR Analytics</h3>
-                        <p className="lead">Unlock the potential of your HR data with our HR
+                        <h3 className="display-5">Analytics Swervices</h3>
+                        <p className="lead">Unlock the potential of your HR data with our Human Resource
                             Analytics course. Learn to optimize your HR processes for maximum efficiency.
                         </p>
                         <Image
@@ -194,7 +194,7 @@ export default function Page() {
                         />
                     </div>
                     <div className="col-md-4 shadow-sm p-4">
-                        <h3 className="display-5">Inventory Management/Stock Analysis</h3>
+                        <h3 className="display-5">Inventory Management</h3>
                         <p className="lead">Manage your inventory like a pro with our
                             Inventory Management and Stock Analysis course. Learn industry-best practices and techniques.
                         </p>
@@ -211,8 +211,7 @@ export default function Page() {
                         <h3 className="display-5">Corporate Training</h3>
                         <p className="lead">Empower your team with our customized corporate training programs.
                             We offer training in Data Analytics, Business Intelligence, Inventory Management,
-                            and more. Choose from onsite workshops, virtual sessions, or a blended approach
-                            to suit your organization's needs.
+                            and more.
                         </p>
                         <Image
                             src="/imgs/corporate.jpg"
@@ -226,10 +225,10 @@ export default function Page() {
                 </div>
             </section>
             <section id="testimonials">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-10 col-xl-8 text-center">
-                        <h2 class="display-5 fw-medium lh-1 my-4">Our Client's Reviews</h2>
-                        <p class="mb-4 pb-2 mb-md-5 pb-md-0 lead">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-md-10 col-xl-8 text-center">
+                        <h2 className="fw-medium text-center display-4 my-3">Our Client's Reviews</h2>
+                        <p className="mb-4 pb-2 mb-md-5 pb-md-0 lead">
                             <small>
                                 At DataBreed Africa, we're dedicated to providing top-notch data analytics
                                 solutions and training. But don't just take our word for it
@@ -241,9 +240,9 @@ export default function Page() {
                     </div>
                 </div>
 
-                <div class="row text-center">
-                    <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="d-flex justify-content-center mb-4">
+                <div className="row text-center">
+                    <div className="col-md-4 mb-5 mb-md-0">
+                        <div className="d-flex justify-content-center mb-4">
                             <Image
                                 src="/imgs/reviews/reviewer1.jpeg"
                                 className="rounded-circle shadow-1-strong"
@@ -251,31 +250,31 @@ export default function Page() {
                                 height={150}
                             />
                         </div>
-                        <h5 class="mb-3">Mukesh Akhan</h5>
-                        <h6 class="text-primary mb-3">CEO Mega Plastics</h6>
-                        <p class="px-xl-3 lead">
-                            <i class="bi bi-quote"></i> Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services! Their expertise and guidance were invaluable in driving our business forward.
+                        <h5 className="mb-3">Mukesh Akhan</h5>
+                        <h6 className="text-primary mb-3">CEO Mega Plastics</h6>
+                        <p className="px-xl-3 lead">
+                            <i className="bi bi-quote"></i> Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services! Their expertise and guidance were invaluable in driving our business forward.
                         </p>
-                        <ul class="list-unstyled d-flex justify-content-center">
+                        <ul className="list-unstyled d-flex justify-content-center">
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-half text-warning"></i>
+                                <i className="bi bi-star-half text-warning"></i>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="d-flex justify-content-center mb-4">
+                    <div className="col-md-4 mb-5 mb-md-0">
+                        <div className="d-flex justify-content-center mb-4">
                             <Image
                                 src="/imgs/reviews/reviewer2.jpeg"
                                 className="rounded-circle shadow-1-strong"
@@ -283,31 +282,31 @@ export default function Page() {
                                 height={150}
                             />
                         </div>
-                        <h5 class="mb-3">Naomi Akinyi</h5>
-                        <h6 class="text-primary mb-3">COO Net Station</h6>
-                        <p class="px-xl-3 lead">
-                            <i class="bi bi-quote"></i>Excellent services! They provided valuable insights that transformed our business operations. Their expertise and dedication significantly improved our efficiency and boosted our bottom line. Highly recommended!
+                        <h5 className="mb-3">Naomi Akinyi</h5>
+                        <h6 className="text-primary mb-3">COO Net Station</h6>
+                        <p className="px-xl-3 lead">
+                            <i className="bi bi-quote"></i>Excellent services! They provided valuable insights that transformed our business operations. Their expertise and dedication significantly improved our efficiency and boosted our bottom line. Highly recommended!
                         </p>
-                        <ul class="list-unstyled d-flex justify-content-center">
+                        <ul className="list-unstyled d-flex justify-content-center">
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4 mb-0">
-                        <div class="d-flex justify-content-center mb-4">
+                    <div className="col-md-4 mb-0">
+                        <div className="d-flex justify-content-center mb-4">
                             <Image
                                 src="/imgs/reviews/reviewer4.jpeg"
                                 className="rounded-circle shadow-1-strong"
@@ -315,26 +314,26 @@ export default function Page() {
                                 height={150}
                             />
                         </div>
-                        <h5 class="mb-3">Alphayo Mubanda</h5>
-                        <h6 class="text-primary mb-3">COO Shivakalabs</h6>
-                        <p class="px-xl-3 lead">
-                            <i class="bi bi-quote"></i>Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services! Their expertise was instrumental in driving our success.
+                        <h5 className="mb-3">Alphayo Mubanda</h5>
+                        <h6 className="text-primary mb-3">COO Shivakalabs</h6>
+                        <p className="px-xl-3 lead">
+                            <i className="bi bi-quote"></i>Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services! Their expertise was instrumental in driving our success.
                         </p>
-                        <ul class="list-unstyled d-flex justify-content-center">
+                        <ul className="list-unstyled d-flex justify-content-center">
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star-fill text-warning"></i>
+                                <i className="bi bi-star-fill text-warning"></i>
                             </li>
                             <li>
-                                <i class="bi bi-star text-warning"></i>
+                                <i className="bi bi-star text-warning"></i>
                             </li>
                         </ul>
                     </div>
@@ -342,9 +341,9 @@ export default function Page() {
                 </div>
             </section>
             <section id="social">
-                <div class="text-center py-5">
-                    <h2 className="display-5 fw-medium lh-1 my-3 pb-3">Let's Get Social</h2>
-                    <div class="social-icons">
+                <div className="text-center py-5">
+                    <h2 className="fw-medium text-center display-4 my-3">Let's Get Social</h2>
+                    <div className="social-icons">
                         <Link className="mx-2" href="https://web.facebook.com/profile.php?id=100067535365032" target="_blank"><Image src="/imgs/social/facebook-icon.png" alt="Facebook Icon" width={70} height={70} /></Link>
                         <Link className="mx-2" href="https://twitter.com/DataBreedAfrica" target="_blank"><Image src="/imgs/social/twitter-icon.png" alt="Twitter Icon" width={70} height={70} /></Link>
                         <Link className="mx-2" href="https://wa.me/+254792596600" target="_blank"><Image src="/imgs/social/whatsapp-icon.png" alt="WhatsApp Icon" width={70} height={70} /></Link>
