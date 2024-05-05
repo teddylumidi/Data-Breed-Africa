@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right,#015a96,#015a96);
+  background-image: linear-gradient(to right,#498cc7,#498cc7);
   padding: 0 !important;
 }
 
@@ -35,14 +35,14 @@ body {
 }
 
 .navbar-nav li a {
-  color: #070707 !important;
+  color: #FFA500 !important;
   font-weight: 600;
   text-align: left;
   text-decoration: none; /* Remove underline */
 }
 
 .fa-bars {
-  color: #070707;
+  color: #FFA500;
   font-size: 30px !important;
 }
 
@@ -52,7 +52,7 @@ body {
 
 /* Banner section */
 #banner {
-  background-image: linear-gradient(to right, #015a96, #015a96);
+  background-image: linear-gradient(to right, #498cc7, #498cc7);
   color: #070707;
   padding-top: 5%;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 #banner a {
-  color: #070707;
+  color: #FFA500;
   text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ body {
 /* Horizontal line to separate sections */
 .section-divider {
   margin: 40px auto; /* Adjusted margin */
-  border-top: 1px solid #015a96;
+  border-top: 1px solid #498cc7;
   width: 80%;
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .orange-bg {
-  background-color: #e5e8f0;
+  background-color: #cc7108;
   padding: 50px 0; /* Adjust padding as needed */
 }
 
@@ -124,7 +124,7 @@ body {
 
 .slick-prev:hover,
 .slick-next:hover {
-  color: #070707;
+  color: #cc7108;
 }
 
 .slick-dots {
@@ -151,7 +151,7 @@ body {
   padding: 5px;
   border: none;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #c46711;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -162,7 +162,7 @@ body {
 
 /* Social media section */
 #social-media {
-  background: #f8f9fa;
+  background: #c46711;
   padding: 100px 0;
 }
 
@@ -183,7 +183,7 @@ body {
 
 /* Footer section */
 #footer {
-  background-image: linear-gradient(to right, #015a96, #015a96);
+  background-image: linear-gradient(to right, #498cc7, #498cc7);
   color: #070707;
   padding-top: 50px;
 }
@@ -226,7 +226,7 @@ body {
 /* Navigation on smaller screens */
 nav {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to right, #015a96,#015a96);
+  background-image: linear-gradient(to right, #498cc7,#498cc7);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -271,7 +271,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-image: linear-gradient(to right, #015a96, #015a96);
+  background-image: linear-gradient(to right, #498cc7, #498cc7);
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
   display: none;
