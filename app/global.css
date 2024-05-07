@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-  --primary-color: #00004f;
+  --primary-color:  #87CEEB;
   --seconday-color: tomato;
 }
 
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 /* HEADER SECTION */
 .navbar-brand { font-size: 1.456rem !important; font-weight: 500 !important; }
 .navbar-toggler-icon { background-color: var(--seconday-color) !important; }
-header { background-color: #00004f; }
+header { background-color:  #87CEEB; }
 header nav a {
     color: var(--seconday-color) !important;
     font-size: 1.085rem !important;
@@ -28,11 +28,11 @@ header nav a {
 }
 header nav a:hover {
     color: whitesmoke !important;
-    background-color: #00004f !important;
+    background-color:  #87CEEB !important;
 }
 
 .hero {
-    /* background-color: #00004fee; */
+    /* background-color:  #87CEEBee; */
     background-image: url("/imgs/cool-background.png");
 }
 .hero h1 { color: var(--seconday-color);}
@@ -63,7 +63,7 @@ header nav a:hover {
 }
 
 footer {
-  background-color: #00004f;
+  background-color:  #87CEEB;
   color: whitesmoke;
 }
 footer h4 {
