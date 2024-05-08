@@ -1,2 +1,0 @@
-# Data Breed Africa
-Welcome to Data Breed Africa (DBA), your premier partner in harnessing the power of data analytics and artificial intelligence across the African continent. At DBA, we believe that data is the cornerstone of informed decision-making, and we’re dedicated to empowering individuals and organizations with the knowledge and tools they need to unlock its full potential.
