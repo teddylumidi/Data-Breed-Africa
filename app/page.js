@@ -180,7 +180,7 @@ export default function Page() {
                 </div>
                 <div className="container-xl row mx-lg-auto pb-3">
                     <div className="col-md-4 shadow-sm p-4">
-                        <h3 className="display-5">Analytics Swervices</h3>
+                        <h3 className="display-5">Analytics Services</h3>
                         <p className="lead">Unlock the potential of your HR data with our Human Resource
                             Analytics course. Learn to optimize your HR processes for maximum efficiency.
                         </p>
@@ -250,7 +250,7 @@ export default function Page() {
                                 height={150}
                             />
                         </div>
-                        <h5 className="mb-3">Mukesh Akhan</h5>
+                        <h5 className="mb-3">Mindra Khan</h5>
                         <h6 className="text-primary mb-3">CEO Mega Plastics</h6>
                         <p className="px-xl-3 lead">
                             <i className="bi bi-quote"></i> Data Breed Africa helped us unlock the potential of our data and make informed decisions. Highly recommend their services! Their expertise and guidance were invaluable in driving our business forward.
@@ -283,7 +283,7 @@ export default function Page() {
                             />
                         </div>
                         <h5 className="mb-3">Naomi Akinyi</h5>
-                        <h6 className="text-primary mb-3">COO Net Station</h6>
+                        <h6 className="text-primary mb-3">Director Net Station</h6>
                         <p className="px-xl-3 lead">
                             <i className="bi bi-quote"></i>Excellent services! They provided valuable insights that transformed our business operations. Their expertise and dedication significantly improved our efficiency and boosted our bottom line. Highly recommended!
                         </p>
