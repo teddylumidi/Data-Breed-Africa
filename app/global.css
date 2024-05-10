@@ -45,9 +45,12 @@ header nav a:hover {
 #testimonials {
   background-color: aliceblue;
 }
+#academy {
+  background-color: rgba(255, 99, 71, 0.075) !important;
 
-#social, .marketing {
-  background-color: rgba(255, 99, 71, 0.075);
+}
+#social, .marketing{
+  background-color: rgba(255, 99, 71, 0.075) !important;
 }
 .social-icons img {
   /* width: 80px; */
