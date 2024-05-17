@@ -5,7 +5,7 @@ export default function NavBar() {
     <header>
         <nav className="navbar navbar-expand-lg shadow-lg">
             <div className="container-fluid">
-                <Link id="logo" href="/" className="navbar-brand">DataBreed Africa</Link>
+                <Link id="logo" href="/" className="navbar-brand">Data Breed Africa</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
