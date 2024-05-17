@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/cp -R public_html/* $DEPLOYPATH
