@@ -8,7 +8,11 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body>
+<<<<<<< HEAD
                 <title>Data Breed Africa</title>
+=======
+                <title>DataBreed Africa</title>
+>>>>>>> b377f0b0791987019ef23802785c7036b442a971
                 <NavBar />
                 <main>{children}</main>
                 <Footer />

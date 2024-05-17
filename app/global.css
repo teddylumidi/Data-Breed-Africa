@@ -5,7 +5,11 @@ body {
 }
 
 :root {
+<<<<<<< HEAD
   --primary-color:  #87CEEB;
+=======
+  --primary-color:  #071d5f;
+>>>>>>> b377f0b0791987019ef23802785c7036b442a971
   --seconday-color: tomato;
 }
 
@@ -20,7 +24,11 @@ h1,h2,h3,h4,h5,h6 {
 /* HEADER SECTION */
 .navbar-brand { font-size: 1.456rem !important; font-weight: 500 !important; }
 .navbar-toggler-icon { background-color: var(--seconday-color) !important; }
+<<<<<<< HEAD
 header { background-color:  #87CEEB; }
+=======
+header { background-color:  #071d5f; }
+>>>>>>> b377f0b0791987019ef23802785c7036b442a971
 header nav a {
     color: var(--seconday-color) !important;
     font-size: 1.085rem !important;
@@ -28,7 +36,11 @@ header nav a {
 }
 header nav a:hover {
     color: whitesmoke !important;
+<<<<<<< HEAD
     background-color:  #87CEEB !important;
+=======
+    background-color: #071d5f !important;
+>>>>>>> b377f0b0791987019ef23802785c7036b442a971
 }
 
 .hero {
@@ -63,8 +75,13 @@ header nav a:hover {
 }
 
 footer {
+<<<<<<< HEAD
   background-color:  #87CEEB;
   color: whitesmoke;
+=======
+  background-color:  #071d5f;
+  color: #071d5f;
+>>>>>>> b377f0b0791987019ef23802785c7036b442a971
 }
 footer h4 {
   color: var(--seconday-color);
